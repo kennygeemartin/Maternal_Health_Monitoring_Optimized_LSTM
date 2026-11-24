@@ -1,0 +1,69 @@
+{
+  "seed": 42,
+  "features": [
+    "Age",
+    "Body Temperature(F)",
+    "Heart rate(bpm)",
+    "Systolic Blood Pressure(mm Hg)",
+    "Diastolic Blood Pressure(mm Hg)",
+    "BMI(kg/m 2)",
+    "Blood Glucose(HbA1c)",
+    "Blood Glucose(Fasting hour-mg/dl)"
+  ],
+  "classes": [
+    "low risk",
+    "mid risk",
+    "high risk"
+  ],
+  "primary": {
+    "raw_rows": 6103,
+    "duplicates_removed": 1,
+    "implausible_removed_per_feature": {
+      "Age": 1,
+      "Body Temperature(F)": 1,
+      "Heart rate(bpm)": 0,
+      "Systolic Blood Pressure(mm Hg)": 0,
+      "Diastolic Blood Pressure(mm Hg)": 1,
+      "BMI(kg/m 2)": 0,
+      "Blood Glucose(HbA1c)": 0,
+      "Blood Glucose(Fasting hour-mg/dl)": 0
+    },
+    "implausible_rows_removed": 3,
+    "cleaned_rows": 6099,
+    "class_counts": {
+      "high risk": 2058,
+      "mid risk": 2043,
+      "low risk": 1998
+    }
+  },
+  "uci": {
+    "raw_rows": 1014,
+    "duplicates_removed": 562,
+    "cleaned_rows": 452,
+    "class_counts": {
+      "low risk": 234,
+      "high risk": 112,
+      "mid risk": 106
+    }
+  },
+  "splits": {
+    "train": 4269,
+    "val": 915,
+    "test": 915,
+    "train_class_counts": [
+      1399,
+      1430,
+      1440
+    ],
+    "val_class_counts": [
+      299,
+      307,
+      309
+    ],
+    "test_class_counts": [
+      300,
+      306,
+      309
+    ]
+  }
+}

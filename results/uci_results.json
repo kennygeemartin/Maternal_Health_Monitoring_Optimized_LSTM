@@ -1,0 +1,57 @@
+{
+  "Proposed LSTM (UCI)": {
+    "model": "Proposed LSTM (UCI)",
+    "accuracy": 0.6323529411764706,
+    "accuracy_ci95": [
+      0.5147058823529411,
+      0.7352941176470589
+    ],
+    "macro_precision": 0.5643939393939393,
+    "macro_recall": 0.5858543417366947,
+    "macro_f1": 0.5650495067042174,
+    "macro_roc_auc": 0.8034781515101584,
+    "brier": 0.4854929188334303,
+    "per_class": {
+      "low risk": {
+        "precision": 0.7878787878787878,
+        "recall": 0.7428571428571429,
+        "f1": 0.7647058823529411,
+        "support": 35
+      },
+      "mid risk": {
+        "precision": 0.36363636363636365,
+        "recall": 0.25,
+        "f1": 0.2962962962962963,
+        "support": 16
+      },
+      "high risk": {
+        "precision": 0.5416666666666666,
+        "recall": 0.7647058823529411,
+        "f1": 0.6341463414634146,
+        "support": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        26,
+        3,
+        6
+      ],
+      [
+        7,
+        4,
+        5
+      ],
+      [
+        0,
+        4,
+        13
+      ]
+    ]
+  },
+  "n_train": 316,
+  "n_val": 68,
+  "n_test": 68,
+  "best_epoch": 182,
+  "note": "Separately fitted secondary benchmark; six-feature UCI schema, not external validation of the primary model."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "tag": "G1",
+    "hidden": 64,
+    "layers": 1,
+    "bidirectional": false,
+    "dropout": 0.2,
+    "batch": 256,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "label_smooth": 0.0,
+    "class_weight": true,
+    "best_val_loss": 0.26698577404022217,
+    "best_val_macro_f1": 0.9082324432270248,
+    "best_epoch": 138
+  },
+  {
+    "tag": "G2",
+    "hidden": 128,
+    "layers": 1,
+    "bidirectional": true,
+    "dropout": 0.3,
+    "batch": 256,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "label_smooth": 0.0,
+    "class_weight": true,
+    "best_val_loss": 0.21139995753765106,
+    "best_val_macro_f1": 0.9312612576252235,
+    "best_epoch": 137
+  },
+  {
+    "tag": "G3",
+    "hidden": 128,
+    "layers": 1,
+    "bidirectional": true,
+    "dropout": 0.3,
+    "batch": 256,
+    "lr": 0.001,
+    "wd": 0.0001,
+    "label_smooth": 0.05,
+    "class_weight": true,
+    "best_val_loss": 0.33434414863586426,
+    "best_val_macro_f1": 0.932203024223991,
+    "best_epoch": 138
+  },
+  {
+    "tag": "G4",
+    "hidden": 128,
+    "layers": 1,
+    "bidirectional": true,
+    "dropout": 0.3,
+    "batch": 256,
+    "lr": 0.0003,
+    "wd": 0.0001,
+    "label_smooth": 0.05,
+    "class_weight": true,
+    "best_val_loss": 0.4610728919506073,
+    "best_val_macro_f1": 0.8575634367331303,
+    "best_epoch": 129
+  }
+]
